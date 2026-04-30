@@ -20,5 +20,5 @@ console.log(typeof '김수현');
 console.log(typeof true);
 console.log(typeof undefined);
 console.log(typeof null);
-console.log(typeof {});
-console.log(typeof []);
+console.log(typeof {});  // object (객체)
+console.log(typeof []);  // 배열
