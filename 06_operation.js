@@ -24,3 +24,14 @@ console.log(true && false && '뉴진스')
 let input = '홍길동';
 const userName = input || '익명';
 console.log(userName)
+
+let swh =true;
+console.log(swh && '커짐');
+
+// null 병합연산자
+console.log('-------------------------')
+let name;
+console.log(name)
+// ?? : name 이 null or undefind 아니면 출력, null이면 다음것 출력
+name = name ?? '안유진';
+console.log(name)
